@@ -1,0 +1,240 @@
+:root {
+    /* Fonts */
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+  
+    /* Colors */
+    --cl-primary-brand: 36 37 42;
+    --cl-accent: 43 138 243; 
+    --cl-light: 255 255 255; 
+    --cl-dark: 18 19 22;
+    --cl-subtle-text: 118 120 123; 
+  }
+
+.logo {
+    font-size: 18px; 
+    font-weight: bold; 
+    text-decoration: none; 
+  }
+  
+  .logo-header .logo-iris {
+    color: #5a4fcf;
+  }
+  
+  .logo-header .logo-navy-blue {
+    color: #001f3f; 
+  }
+  
+  .logo-footer .logo-iris {
+    color: #5a4fcf; 
+  }
+  
+  .logo-footer .cloud {
+    color: #aaaaaa;
+  }
+
+  ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+  header {
+    background-color: rgb(var(--cl-light));
+    padding: 20px 40px;
+    color: rgb(var(--cl-light));
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-nav-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header-nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(var(--cl-dark));
+  }
+  
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: rgb(var(--cl-accent));
+  }
+  
+  .header-contacts {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    gap: 5px; 
+  }
+  
+  .contact-link {
+    font-size: 0.9rem;
+    color: rgb(var(--cl-primary-brand));
+    transition: color 0.3s; 
+  }
+  
+  .contact-link:hover,
+  .contact-link:focus {
+    color: rgb(var(--cl-accent)); 
+  }
+  .hero {
+    background-color: rgb(var(--cl-dark));
+    color: rgb(var(--cl-light));
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero-title {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(var(--cl-light));
+    background-color: rgb(var(--cl-accent));
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(30, 110, 200);
+  }
+ 
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .values-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .values-item {
+    text-align: left;
+  }
+  
+  .values-subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .values-desc {
+    font-size: 1rem;
+    color: rgb(var(--cl-subtle-text));
+  }
+    
+
+  .team {
+    background-color: rgb(var(--cl-light));
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team-title {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .team-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+  }
+  
+  .team-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .team-role {
+    font-size: 1rem;
+    color: rgb(var(--cl-subtle-text));
+  }
+  .portfolio {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .portfolio-title {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    text-align: left;
+  }
+  
+  .portfolio-item-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .portfolio-item-desc {
+    font-size: 1rem;
+    color: rgb(var(--cl-subtle-text));
+  }
+  .footer {
+    background-color: rgb(var(--cl-dark));
+    color: rgb(var(--cl-light));
+    text-align: left;
+    padding: 30px 20px;
+  }
+  
+  .footer-logo {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .footer-text {
+    font-size: 1rem; 
+    line-height: 1.5; 
+    max-width: 400px; 
+    margin-top: 10px; 
+    color: rgb(var(--cl-subtle-text)); 
+  }
+   
