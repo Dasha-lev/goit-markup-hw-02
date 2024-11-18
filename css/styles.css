@@ -159,10 +159,11 @@
   
   .team-title {
     font-family: var(--primary-font);
-    font-size: 20px;
+    font-size: 36px;
+    letter-spacing: 0.02em;
     font-weight: 700;
     margin-bottom: 40px;
-    line-height: 1.2;
+    line-height: 1.11;
     color: #2e2f42;
 
   }
@@ -174,16 +175,19 @@
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 20px;
-    background-color: #FFFFFF;
   }
   
   .team-member {
     text-align: center;
+    background-color: #FFFFFF;
   }
     
   .team-name {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     margin: 10px 0;
   }
   
@@ -220,18 +224,16 @@
   }
   
   .portfolio-item-title {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.02em;
     margin: 10px 0;
-    color: #434455;
+    color: #2e2f42;
     font-weight: 500;
     line-height: 1.2;
-    font-size: 16px;
-
   }
   
   .portfolio-item-desc {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     color: #434455;
   
@@ -254,7 +256,7 @@
   }
     
   .logo-footer .cloud {
-    color: #f4f4fd;
+    color: #2e2f42;
   }
 
   .footer-text {
