@@ -15,10 +15,10 @@
     color: #434455;
     background-color: #FFFFFF;
     margin: 0;
-    padding: 0;
   }  
 
-.logo {
+.logo-header {
+    font-family: "Raleway", sans-serif;
     font-size: 18px; 
     font-weight: 700; 
     line-height: 1.17;
@@ -29,30 +29,25 @@
     font-family: "Raleway", sans-serif;
   }
   
-  .logo-header .logo-iris {
-    color: #2e2f42;
+  .logo-header .logo-navy-blue {
+    color: #001f3f;
   }
   
   ul {
   list-style: none; 
   margin: 0; 
-  padding: 0; 
 }
 
   header {
     background-color: rgb(var(--cl-light));
-    padding: 20px 40px;
+
   }
   
   .header-nav {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   
   .header-nav-list {
-    display: flex;
-    gap: 30px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
@@ -90,9 +85,6 @@
   }
   .hero {
     background-color: #2e2f42;
-    color: rgb(var(--cl-light));
-    text-align: center;
-    padding: 80px 20px;
   }
   
   .hero-title {
@@ -102,10 +94,10 @@
     font-weight: 700;
     letter-spacing: 0.02em;
     margin-bottom: 20px;
+    text-align: center;
   }
   
   .btn {
-    padding: 12px 30px;
     font-size: 16px;
     font-weight: 500;
     color: rgb(var(--cl-light));
@@ -114,7 +106,6 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
   }
   
@@ -124,11 +115,6 @@
   }
  
   .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
@@ -136,9 +122,7 @@
   }
   
   .values-list {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
   }
   
   .values-item {
@@ -161,7 +145,6 @@
 
   .team {
     background-color: #F4F4FD;
-    padding: 50px 20px;
     text-align: center;
   }
   
@@ -177,9 +160,7 @@
   }
   
   .team-list {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
     background-color: #FFFFFF;
     font-weight: 500;
     line-height: 1.2;
@@ -190,11 +171,7 @@
   .team-member {
     text-align: center;
   }
-  
-  .team-photo {
-    border-radius: 50%;
-  }
-  
+    
   .team-name {
     font-size: 1.25rem;
     font-weight: 700;
@@ -206,7 +183,6 @@
     color: rgb(var(--cl-subtle-text));
   }
   .portfolio {
-    padding: 50px 20px;
     text-align: center;
     line-height: 1.11;
     font-size: 36px;
@@ -224,9 +200,7 @@
   }
   
   .portfolio-list {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
   }
   
   .portfolio-item {
@@ -247,7 +221,6 @@
     background-color: #2e2f42;
     color: rgb(var(--cl-light));
     text-align: left;
-    padding: 30px 20px;
   }
   
   .logo-footer {
@@ -259,10 +232,9 @@
     text-transform: uppercase; 
     color: #4d5ae5; 
     text-decoration: none; 
-    display: inline-block; 
   }
   
-  .logo-footer .logo-iris {
+  .logo-footer {
     color: #f4f4fd; 
   }
   
@@ -270,8 +242,6 @@
   .footer-text {
     font-size: 1rem; 
     line-height: 1.5; 
-    max-width: 400px; 
-    margin-top: 10px; 
     color: #F4F4FD; 
     letter-spacing: 0.02;
   }
