@@ -17,7 +17,7 @@
     margin: 0;
   }  
 
-.logo-header {
+  .logo-header {
     font-family: "Raleway", sans-serif;
     font-size: 18px; 
     font-weight: 700; 
@@ -26,7 +26,6 @@
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none; 
-    font-family: "Raleway", sans-serif;
   }
   
   .logo-header .logo-navy-blue {
@@ -36,11 +35,10 @@
   ul {
   list-style: none; 
   margin: 0; 
-}
+  }
 
   header {
     background-color: rgb(var(--cl-light));
-
   }
   
   .header-nav {
@@ -51,7 +49,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
-
   }
   
   .header-nav-link {
@@ -66,6 +63,7 @@
   }
   
   .header-contacts {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -74,8 +72,10 @@
   }
   
   .contact-link {
-    font-size: 0.9rem;
-    color: rgb(var(--cl-primary-brand));
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     transition: color 0.3s; 
   }
   
@@ -135,10 +135,12 @@
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 10px;
+    color: #2e2f42;
   }
   
   .values-desc {
     font-size: 1rem;
+    line-height: 1.5;
     color: #434455;
   }
     
@@ -196,6 +198,9 @@
     font-family: var(--primary-font);
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     margin-bottom: 40px;
   }
   
@@ -210,12 +215,15 @@
   .portfolio-item-title {
     font-size: 1.25rem;
     font-weight: 700;
+    letter-spacing: 0.02em;
     margin: 10px 0;
+    color: #2e2f42;
   }
   
   .portfolio-item-desc {
     font-size: 1rem;
-    color: rgb(var(--cl-subtle-text));
+    line-height: 1.5;
+    color: #434455;
   }
   .footer {
     background-color: #2e2f42;
@@ -233,12 +241,11 @@
     color: #4d5ae5; 
     text-decoration: none; 
   }
-  
-  .logo-footer {
-    color: #f4f4fd; 
+    
+  .logo-footer .cloud {
+    color: #f4f4fd;
   }
-  
-  
+
   .footer-text {
     font-size: 1rem; 
     line-height: 1.5; 
