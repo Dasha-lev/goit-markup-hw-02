@@ -174,7 +174,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .team-member {
@@ -207,9 +207,9 @@
   
   .portfolio-title {
     font-family: var(--primary-font);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 40px;
@@ -224,18 +224,18 @@
   }
   
   .portfolio-item-title {
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0.02em;
     margin: 10px 0;
     color: #2e2f42;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
+    color: #434455;
+
   }
   
   .portfolio-item-desc {
     font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
   
   }
   .footer {
@@ -251,7 +251,7 @@
     line-height: 1.17; 
     letter-spacing: 0.03em; 
     text-transform: uppercase; 
-    color: #4d5ae5; 
+    color: #f4f4fd ; 
     text-decoration: none; 
   }
     
@@ -263,6 +263,6 @@
     font-size: 1rem; 
     line-height: 1.5; 
     color: #F4F4FD; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
   }
    
