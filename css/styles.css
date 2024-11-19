@@ -1,7 +1,7 @@
 :root {
     /* Fonts */
-    --primary-font: 'Raleway', sans-serif;
-    --secondary-font: 'Roboto', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
   
     /* Colors */
     --cl-primary-brand: 36 37 42;
@@ -11,14 +11,18 @@
     --cl-subtle-text: 118 120 123; 
   }
   body {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: #434455;
     background-color: #FFFFFF;
     margin: 0;
   }  
 
+  a {
+    text-decoration: none;
+  }
+
   .logo-header {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
     font-size: 18px; 
     font-weight: 700; 
     line-height: 1.17;
